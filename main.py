@@ -41,4 +41,4 @@ while True:
         break
 
     else:
-        print("Opção inválida.")s
+        print("Opção inválida.")
