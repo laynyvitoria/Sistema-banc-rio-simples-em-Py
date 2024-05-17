@@ -22,5 +22,5 @@ O programa continua em execução em um loop infinito até que o usuário escolh
 
 ## Limitações
 
-- Limite de Saques: O programa impõe um limite máximo de três saques durante a execução do programa. Isso é controlado pela variável `quantidades_saques`, que é incrementada cada vez que um saque é realizado com sucesso.
-- Limite de Saque: Além do limite de quantidade de saques, há também um limite de valor para cada saque, definido como R$ 500. Isso é controlado pela variável `limite_saque`.
+- Limite de saques: O programa impõe um limite máximo de três saques durante a execução do programa. Isso é controlado pela variável `quantidades_saques`, que é incrementada cada vez que um saque é realizado com sucesso.
+- Valor limite de saque: Além do limite de quantidade de saques, há também um limite de valor para cada saque, definido como R$ 500. Isso é controlado pela variável `limite_saque`.
