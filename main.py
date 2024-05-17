@@ -12,7 +12,7 @@ while True:
     escolha = input("Escolha o que deseja fazer: \n")
 
     if escolha == "D":
-        valor = float(input("Digite o valor desejado:"))
+        valor = float(input("Digite o valor desejado: \n"))
         saldo += valor
         print(f"Deposito de {valor} reais efetuado com sucesso.")
 
@@ -22,15 +22,15 @@ while True:
             saldo_insuficiente = valor > saldo
             limite_saque = 500
             if saldo_insuficiente:
-                print("Infelizmente, não há saldo suficiente, tente novamente")
+                print("Infelizmente, não há saldo suficiente, tente novamente.")
             elif valor > limite_saque:
-                print("Você ultrapassou o valor limite do saque")
+                print("Você ultrapassou o valor limite do saque.")
             else:
                 saldo -= valor
                 quantidades_saques += 1
                 print(f"Saque de {valor} efetuado com sucesso.")
         else:
-            print("Limite máximo de saques atingido")
+            print("Limite máximo de saques atingido.")
     elif escolha == "E":
         if saldo == 0:
             print("Nenhuma movimentação realizada.")
